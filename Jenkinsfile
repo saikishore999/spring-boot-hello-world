@@ -3,7 +3,7 @@ pipeline
     agent any
     stages
     {
-        stage
+        stage("build-code")
         {
             steps
             {
