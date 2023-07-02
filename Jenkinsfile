@@ -1,9 +1,9 @@
 pipeline
 {
     agent any
-    environment {
-        def mavenHome = tool 'maven'
-    }
+    // environment {
+    //     def mavenHome = tool 'maven'
+    // }
     stages
     {
         stage("build-code")
