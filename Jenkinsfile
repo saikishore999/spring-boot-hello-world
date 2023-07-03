@@ -14,5 +14,10 @@ pipeline
                 sh "ls -lrt target/"
             }
         }
+        stage("Run Unit Tests"){
+            steps {
+               sh "mvn test"
+            }
+        }
     }
 }
