@@ -24,5 +24,10 @@ pipeline
                echo "deploy succesful"
             }
         }
+        stage("deploy uat"){
+            steps {
+               echo "deploy succesful"
+            }
+        }
     }
 }
