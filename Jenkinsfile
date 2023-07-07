@@ -19,5 +19,10 @@ pipeline
                sh "mvn test"
             }
         }
+        stage("Run Unit Tests"){
+            steps {
+               echo "mvn test"
+            }
+        }
     }
 }
