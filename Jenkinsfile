@@ -19,9 +19,9 @@ pipeline
                sh "mvn test"
             }
         }
-        stage("Run Unit Tests"){
+        stage("code deploy"){
             steps {
-               echo "mvn test"
+               echo "deploy succesful"
             }
         }
     }
