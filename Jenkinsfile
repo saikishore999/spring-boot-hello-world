@@ -19,15 +19,5 @@ pipeline
                sh "mvn test"
             }
         }
-        stage("code deploy"){
-            steps {
-               echo "deploy succesful"
-            }
-        }
-        stage("deploy uat"){
-            steps {
-               echo "deploy succesful"
-            }
-        }
     }
 }
