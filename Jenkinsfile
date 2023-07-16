@@ -16,5 +16,10 @@ pipeline
                sh "mvn test"
             }
         }
+        stage('Code Analysis') {
+            steps {
+               sh "${scannerHome}/bin/sonar-scanner" 
+            }
+        }
     }
 }
